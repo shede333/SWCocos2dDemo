@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dg_grounds32" tilewidth="32" tileheight="32">
+  <image source="dg_grounds32.png" width="288" height="608"/>
+ </tileset>
+ <tileset firstgid="172" name="game-events" tilewidth="32" tileheight="32">
+  <image source="game-events.png" width="96" height="32"/>
+  <tile id="1">
+   <properties>
+    <property name="isWater" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="BackgroundLayer" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA9NnYGDQHyDMRWc8WO31JAOP2jtq72C1d6DyEQxXEolJtbeeAKaVvYT8XEOjcKZ3HIPsW0kAD0S6WkmDuIXZS0yeHCh7aRHOg9leWrRxAJUACBhgCQAA
+  </data>
+ </layer>
+ <layer name="WinterLayer" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+NiYGDgGsWjeJjjSWgYXY6W9hLjhoEIC1rbQYo4LeOaGv7tRsKkxjW17EW3exIWu6gVvvjspSUeCDtH7R21l1YYAP4jv5FgCQAA
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="30" height="20">
+  <object x="35" y="231" width="125" height="121"/>
+  <object gid="173" x="66" y="163"/>
+  <object gid="173" x="29" y="163"/>
+  <object gid="173" x="94" y="158"/>
+  <object gid="173" x="92" y="178"/>
+  <object gid="173" x="83" y="197"/>
+  <object gid="173" x="52" y="203"/>
+  <object gid="173" x="31" y="203"/>
+  <object gid="173" x="40" y="224"/>
+  <object x="133" y="51" width="430" height="56"/>
+  <object x="265" y="52" width="60"/>
+ </objectgroup>
+ <layer name="GameEventLayer" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAUDDdaSgUftHbV3sNo7CkbBKCAODFSeHLWXPvYCAKDfMixgCQAA
+  </data>
+ </layer>
+</map>
